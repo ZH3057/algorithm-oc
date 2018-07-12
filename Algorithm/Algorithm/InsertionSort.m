@@ -11,15 +11,17 @@
 @implementation InsertionSort
 
 + (NSArray *)insertionSort:(NSMutableArray *)array {
-    
+    [self printArray:array];
     for (NSInteger idx = 1; idx < array.count; idx++) {
         NSNumber *key = array[idx];
-        NSInteger i = idx - 1; 
+        NSInteger i = idx - 1;
         while (i >= 0 && [array[i] integerValue] > [key integerValue]) {
             array[i+1] = array[i];
+            [self printArray:array];
             i = i - 1;
         }
         array[i+1] = key;
+        [self printArray:array];
     }
     [self printArray:array];
     return array.copy;
