@@ -7,11 +7,15 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "InsertionSort.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
         NSLog(@"Hello, World!");
+        
+        NSMutableArray *array = [NSMutableArray arrayWithObjects:@9, @8, @7, @6, @5, @4, @3, @2, @1, nil];
+        [InsertionSort insertionSort:array];
     }
     return 0;
 }
