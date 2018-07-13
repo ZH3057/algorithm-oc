@@ -8,7 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
+#import "textCopy.h"
 #import "InsertionSort.h"
+#import "textCount.h"
 
 int * insertionSort(int array[], int length);
 void printArray(int *array, int length);

@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		BF84EB5820F736B60086E4CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF84EB5720F736B60086E4CD /* main.m */; };
 		BF84EB6020F737C40086E4CD /* InsertionSort.m in Sources */ = {isa = PBXBuildFile; fileRef = BF84EB5F20F737C40086E4CD /* InsertionSort.m */; };
+		BF84EB6320F851340086E4CD /* textCopy.c in Sources */ = {isa = PBXBuildFile; fileRef = BF84EB6220F851340086E4CD /* textCopy.c */; };
+		BF84EB6B20F855C00086E4CD /* textCount.c in Sources */ = {isa = PBXBuildFile; fileRef = BF84EB6A20F855C00086E4CD /* textCount.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +30,10 @@
 		BF84EB5720F736B60086E4CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BF84EB5E20F737C40086E4CD /* InsertionSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InsertionSort.h; sourceTree = "<group>"; };
 		BF84EB5F20F737C40086E4CD /* InsertionSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InsertionSort.m; sourceTree = "<group>"; };
+		BF84EB6120F851340086E4CD /* textCopy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = textCopy.h; sourceTree = "<group>"; };
+		BF84EB6220F851340086E4CD /* textCopy.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = textCopy.c; sourceTree = "<group>"; };
+		BF84EB6920F855C00086E4CD /* textCount.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = textCount.h; sourceTree = "<group>"; };
+		BF84EB6A20F855C00086E4CD /* textCount.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = textCount.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +67,10 @@
 			isa = PBXGroup;
 			children = (
 				BF84EB5720F736B60086E4CD /* main.m */,
+				BF84EB6120F851340086E4CD /* textCopy.h */,
+				BF84EB6220F851340086E4CD /* textCopy.c */,
+				BF84EB6920F855C00086E4CD /* textCount.h */,
+				BF84EB6A20F855C00086E4CD /* textCount.c */,
 				BF84EB5E20F737C40086E4CD /* InsertionSort.h */,
 				BF84EB5F20F737C40086E4CD /* InsertionSort.m */,
 			);
@@ -123,7 +133,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF84EB6320F851340086E4CD /* textCopy.c in Sources */,
 				BF84EB5820F736B60086E4CD /* main.m in Sources */,
+				BF84EB6B20F855C00086E4CD /* textCount.c in Sources */,
 				BF84EB6020F737C40086E4CD /* InsertionSort.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
