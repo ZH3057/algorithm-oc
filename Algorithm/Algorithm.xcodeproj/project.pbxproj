@@ -11,6 +11,7 @@
 		BF84EB6020F737C40086E4CD /* InsertionSort.m in Sources */ = {isa = PBXBuildFile; fileRef = BF84EB5F20F737C40086E4CD /* InsertionSort.m */; };
 		BF84EB6320F851340086E4CD /* textCopy.c in Sources */ = {isa = PBXBuildFile; fileRef = BF84EB6220F851340086E4CD /* textCopy.c */; };
 		BF84EB6B20F855C00086E4CD /* textCount.c in Sources */ = {isa = PBXBuildFile; fileRef = BF84EB6A20F855C00086E4CD /* textCount.c */; };
+		BF97A06E221D52C70083D0DB /* LinkList.c in Sources */ = {isa = PBXBuildFile; fileRef = BF97A06D221D52C70083D0DB /* LinkList.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +35,8 @@
 		BF84EB6220F851340086E4CD /* textCopy.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = textCopy.c; sourceTree = "<group>"; };
 		BF84EB6920F855C00086E4CD /* textCount.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = textCount.h; sourceTree = "<group>"; };
 		BF84EB6A20F855C00086E4CD /* textCount.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = textCount.c; sourceTree = "<group>"; };
+		BF97A06C221D52C70083D0DB /* LinkList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinkList.h; sourceTree = "<group>"; };
+		BF97A06D221D52C70083D0DB /* LinkList.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LinkList.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +69,25 @@
 		BF84EB5620F736B60086E4CD /* Algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				BF97A06F221D52D10083D0DB /* 链表 */,
+				BF97A070221D52E40083D0DB /* 其他 */,
 				BF84EB5720F736B60086E4CD /* main.m */,
+			);
+			path = Algorithm;
+			sourceTree = "<group>";
+		};
+		BF97A06F221D52D10083D0DB /* 链表 */ = {
+			isa = PBXGroup;
+			children = (
+				BF97A06C221D52C70083D0DB /* LinkList.h */,
+				BF97A06D221D52C70083D0DB /* LinkList.c */,
+			);
+			path = "链表";
+			sourceTree = "<group>";
+		};
+		BF97A070221D52E40083D0DB /* 其他 */ = {
+			isa = PBXGroup;
+			children = (
 				BF84EB6120F851340086E4CD /* textCopy.h */,
 				BF84EB6220F851340086E4CD /* textCopy.c */,
 				BF84EB6920F855C00086E4CD /* textCount.h */,
@@ -74,7 +95,7 @@
 				BF84EB5E20F737C40086E4CD /* InsertionSort.h */,
 				BF84EB5F20F737C40086E4CD /* InsertionSort.m */,
 			);
-			path = Algorithm;
+			path = "其他";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +158,7 @@
 				BF84EB5820F736B60086E4CD /* main.m in Sources */,
 				BF84EB6B20F855C00086E4CD /* textCount.c in Sources */,
 				BF84EB6020F737C40086E4CD /* InsertionSort.m in Sources */,
+				BF97A06E221D52C70083D0DB /* LinkList.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
