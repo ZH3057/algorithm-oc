@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF3D87082248AC6900575581 /* SelectionSort.c in Sources */ = {isa = PBXBuildFile; fileRef = BF3D87072248AC6900575581 /* SelectionSort.c */; };
 		BF84EB5820F736B60086E4CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF84EB5720F736B60086E4CD /* main.m */; };
-		BF84EB6020F737C40086E4CD /* InsertionSort.m in Sources */ = {isa = PBXBuildFile; fileRef = BF84EB5F20F737C40086E4CD /* InsertionSort.m */; };
 		BF84EB6320F851340086E4CD /* textCopy.c in Sources */ = {isa = PBXBuildFile; fileRef = BF84EB6220F851340086E4CD /* textCopy.c */; };
 		BF84EB6B20F855C00086E4CD /* textCount.c in Sources */ = {isa = PBXBuildFile; fileRef = BF84EB6A20F855C00086E4CD /* textCount.c */; };
 		BF97A06E221D52C70083D0DB /* LinkList.c in Sources */ = {isa = PBXBuildFile; fileRef = BF97A06D221D52C70083D0DB /* LinkList.c */; };
+		BFBE826F2244E8CD0094C9CB /* InsertionSort.c in Sources */ = {isa = PBXBuildFile; fileRef = BFBE826E2244E8CD0094C9CB /* InsertionSort.c */; };
+		BFBE82732244ED7A0094C9CB /* bubbleSort.c in Sources */ = {isa = PBXBuildFile; fileRef = BFBE82722244ED7A0094C9CB /* bubbleSort.c */; };
 		BFEFA8EC223B8600003CC8E6 /* Stack.c in Sources */ = {isa = PBXBuildFile; fileRef = BFEFA8EB223B8600003CC8E6 /* Stack.c */; };
 /* End PBXBuildFile section */
 
@@ -28,16 +30,20 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		BF3D87072248AC6900575581 /* SelectionSort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = SelectionSort.c; sourceTree = "<group>"; };
+		BF3D87092248BE2F00575581 /* bubbleSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bubbleSort.h; sourceTree = "<group>"; };
+		BF3D870A2248BE2F00575581 /* SelectionSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectionSort.h; sourceTree = "<group>"; };
+		BF3D870B2248BE2F00575581 /* InsertionSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InsertionSort.h; sourceTree = "<group>"; };
 		BF84EB5420F736B60086E4CD /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF84EB5720F736B60086E4CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		BF84EB5E20F737C40086E4CD /* InsertionSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InsertionSort.h; sourceTree = "<group>"; };
-		BF84EB5F20F737C40086E4CD /* InsertionSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InsertionSort.m; sourceTree = "<group>"; };
 		BF84EB6120F851340086E4CD /* textCopy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = textCopy.h; sourceTree = "<group>"; };
 		BF84EB6220F851340086E4CD /* textCopy.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = textCopy.c; sourceTree = "<group>"; };
 		BF84EB6920F855C00086E4CD /* textCount.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = textCount.h; sourceTree = "<group>"; };
 		BF84EB6A20F855C00086E4CD /* textCount.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = textCount.c; sourceTree = "<group>"; };
 		BF97A06C221D52C70083D0DB /* LinkList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinkList.h; sourceTree = "<group>"; };
 		BF97A06D221D52C70083D0DB /* LinkList.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LinkList.c; sourceTree = "<group>"; };
+		BFBE826E2244E8CD0094C9CB /* InsertionSort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = InsertionSort.c; sourceTree = "<group>"; };
+		BFBE82722244ED7A0094C9CB /* bubbleSort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bubbleSort.c; sourceTree = "<group>"; };
 		BFEFA8EA223B8600003CC8E6 /* Stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Stack.h; sourceTree = "<group>"; };
 		BFEFA8EB223B8600003CC8E6 /* Stack.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Stack.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -72,6 +78,7 @@
 		BF84EB5620F736B60086E4CD /* Algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				BFBE82702244E8EA0094C9CB /* 排序 */,
 				BFEFA8E8223B7EEB003CC8E6 /* 栈 */,
 				BFEFA8E9223B7EFB003CC8E6 /* 队列 */,
 				BF97A06F221D52D10083D0DB /* 链表 */,
@@ -97,10 +104,21 @@
 				BF84EB6220F851340086E4CD /* textCopy.c */,
 				BF84EB6920F855C00086E4CD /* textCount.h */,
 				BF84EB6A20F855C00086E4CD /* textCount.c */,
-				BF84EB5E20F737C40086E4CD /* InsertionSort.h */,
-				BF84EB5F20F737C40086E4CD /* InsertionSort.m */,
 			);
 			path = "其他";
+			sourceTree = "<group>";
+		};
+		BFBE82702244E8EA0094C9CB /* 排序 */ = {
+			isa = PBXGroup;
+			children = (
+				BF3D870B2248BE2F00575581 /* InsertionSort.h */,
+				BFBE826E2244E8CD0094C9CB /* InsertionSort.c */,
+				BF3D87092248BE2F00575581 /* bubbleSort.h */,
+				BFBE82722244ED7A0094C9CB /* bubbleSort.c */,
+				BF3D870A2248BE2F00575581 /* SelectionSort.h */,
+				BF3D87072248AC6900575581 /* SelectionSort.c */,
+			);
+			path = "排序";
 			sourceTree = "<group>";
 		};
 		BFEFA8E8223B7EEB003CC8E6 /* 栈 */ = {
@@ -175,11 +193,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFBE826F2244E8CD0094C9CB /* InsertionSort.c in Sources */,
+				BFBE82732244ED7A0094C9CB /* bubbleSort.c in Sources */,
 				BFEFA8EC223B8600003CC8E6 /* Stack.c in Sources */,
 				BF84EB6320F851340086E4CD /* textCopy.c in Sources */,
 				BF84EB5820F736B60086E4CD /* main.m in Sources */,
 				BF84EB6B20F855C00086E4CD /* textCount.c in Sources */,
-				BF84EB6020F737C40086E4CD /* InsertionSort.m in Sources */,
+				BF3D87082248AC6900575581 /* SelectionSort.c in Sources */,
 				BF97A06E221D52C70083D0DB /* LinkList.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

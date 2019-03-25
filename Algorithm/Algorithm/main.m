@@ -7,12 +7,20 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Stack.h"
+
+#include "InsertionSort.h"
+#include "bubbleSort.h"
+#include "SelectionSort.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
         NSLog(@"Hello, World!");
+        
+        int nums[6] = {6, 4, 5, 2, 3, 1};
+        insertitonSortFunc(nums, 6);
+        bubbleSortFunc(nums, 6);
+        selectionSortFunc(nums, 6);
         
     }
     return 0;
