@@ -11,16 +11,24 @@
 #include "InsertionSort.h"
 #include "bubbleSort.h"
 #include "SelectionSort.h"
+#include "mergeSort.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
         NSLog(@"Hello, World!");
         
-        int nums[6] = {6, 4, 5, 2, 3, 1};
-        insertitonSortFunc(nums, 6);
-        bubbleSortFunc(nums, 6);
-        selectionSortFunc(nums, 6);
+        int nums1[6] = {6, 4, 5, 2, 3, 1};
+        int nums2[6] = {6, 4, 5, 2, 3, 1};
+        int nums3[6] = {6, 4, 5, 2, 3, 1};
+        int nums4[6] = {6, 4, 5, 2, 3, 1};
+        insertitonSortFunc(nums1, 6);
+        bubbleSortFunc(nums2, 6);
+        selectionSortFunc(nums3, 6);
+        mergeSortFunc(nums4, 0, 5);
+        for (int i = 0; i < 6; i++) {
+            printf("mergeSortFunc: %d\n",nums4[i]);
+        }
         
     }
     return 0;

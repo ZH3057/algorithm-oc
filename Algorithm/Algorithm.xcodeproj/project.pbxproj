@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BF3D87082248AC6900575581 /* SelectionSort.c in Sources */ = {isa = PBXBuildFile; fileRef = BF3D87072248AC6900575581 /* SelectionSort.c */; };
+		BF3D870E2248C16700575581 /* mergeSort.c in Sources */ = {isa = PBXBuildFile; fileRef = BF3D870D2248C16700575581 /* mergeSort.c */; };
 		BF84EB5820F736B60086E4CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF84EB5720F736B60086E4CD /* main.m */; };
 		BF84EB6320F851340086E4CD /* textCopy.c in Sources */ = {isa = PBXBuildFile; fileRef = BF84EB6220F851340086E4CD /* textCopy.c */; };
 		BF84EB6B20F855C00086E4CD /* textCount.c in Sources */ = {isa = PBXBuildFile; fileRef = BF84EB6A20F855C00086E4CD /* textCount.c */; };
@@ -34,6 +35,8 @@
 		BF3D87092248BE2F00575581 /* bubbleSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bubbleSort.h; sourceTree = "<group>"; };
 		BF3D870A2248BE2F00575581 /* SelectionSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectionSort.h; sourceTree = "<group>"; };
 		BF3D870B2248BE2F00575581 /* InsertionSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InsertionSort.h; sourceTree = "<group>"; };
+		BF3D870C2248C16700575581 /* mergeSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mergeSort.h; sourceTree = "<group>"; };
+		BF3D870D2248C16700575581 /* mergeSort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mergeSort.c; sourceTree = "<group>"; };
 		BF84EB5420F736B60086E4CD /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF84EB5720F736B60086E4CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BF84EB6120F851340086E4CD /* textCopy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = textCopy.h; sourceTree = "<group>"; };
@@ -117,6 +120,8 @@
 				BFBE82722244ED7A0094C9CB /* bubbleSort.c */,
 				BF3D870A2248BE2F00575581 /* SelectionSort.h */,
 				BF3D87072248AC6900575581 /* SelectionSort.c */,
+				BF3D870C2248C16700575581 /* mergeSort.h */,
+				BF3D870D2248C16700575581 /* mergeSort.c */,
 			);
 			path = "排序";
 			sourceTree = "<group>";
@@ -196,6 +201,7 @@
 				BFBE826F2244E8CD0094C9CB /* InsertionSort.c in Sources */,
 				BFBE82732244ED7A0094C9CB /* bubbleSort.c in Sources */,
 				BFEFA8EC223B8600003CC8E6 /* Stack.c in Sources */,
+				BF3D870E2248C16700575581 /* mergeSort.c in Sources */,
 				BF84EB6320F851340086E4CD /* textCopy.c in Sources */,
 				BF84EB5820F736B60086E4CD /* main.m in Sources */,
 				BF84EB6B20F855C00086E4CD /* textCount.c in Sources */,
