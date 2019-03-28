@@ -15,6 +15,7 @@
 		BF84EB6B20F855C00086E4CD /* textCount.c in Sources */ = {isa = PBXBuildFile; fileRef = BF84EB6A20F855C00086E4CD /* textCount.c */; };
 		BF97A06E221D52C70083D0DB /* LinkList.c in Sources */ = {isa = PBXBuildFile; fileRef = BF97A06D221D52C70083D0DB /* LinkList.c */; };
 		BFAC5C90224CBBAE00612263 /* BinarySearchTree.c in Sources */ = {isa = PBXBuildFile; fileRef = BFAC5C8F224CBBAE00612263 /* BinarySearchTree.c */; };
+		BFAC5C94224CE63900612263 /* RedBlackTree.c in Sources */ = {isa = PBXBuildFile; fileRef = BFAC5C93224CE63900612263 /* RedBlackTree.c */; };
 		BFBE826F2244E8CD0094C9CB /* InsertionSort.c in Sources */ = {isa = PBXBuildFile; fileRef = BFBE826E2244E8CD0094C9CB /* InsertionSort.c */; };
 		BFBE82732244ED7A0094C9CB /* bubbleSort.c in Sources */ = {isa = PBXBuildFile; fileRef = BFBE82722244ED7A0094C9CB /* bubbleSort.c */; };
 		BFEFA8EC223B8600003CC8E6 /* Stack.c in Sources */ = {isa = PBXBuildFile; fileRef = BFEFA8EB223B8600003CC8E6 /* Stack.c */; };
@@ -51,6 +52,8 @@
 		BF97A06D221D52C70083D0DB /* LinkList.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LinkList.c; sourceTree = "<group>"; };
 		BFAC5C8E224CBBAE00612263 /* BinarySearchTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BinarySearchTree.h; sourceTree = "<group>"; };
 		BFAC5C8F224CBBAE00612263 /* BinarySearchTree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = BinarySearchTree.c; sourceTree = "<group>"; };
+		BFAC5C92224CE63900612263 /* RedBlackTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RedBlackTree.h; sourceTree = "<group>"; };
+		BFAC5C93224CE63900612263 /* RedBlackTree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = RedBlackTree.c; sourceTree = "<group>"; };
 		BFBE826E2244E8CD0094C9CB /* InsertionSort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = InsertionSort.c; sourceTree = "<group>"; };
 		BFBE82722244ED7A0094C9CB /* bubbleSort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bubbleSort.c; sourceTree = "<group>"; };
 		BFEFA8EA223B8600003CC8E6 /* Stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Stack.h; sourceTree = "<group>"; };
@@ -87,7 +90,8 @@
 		BF84EB5620F736B60086E4CD /* Algorithm */ = {
 			isa = PBXGroup;
 			children = (
-				BFAC5C8D224CBB5E00612263 /* 二叉树 */,
+				BFAC5C91224CE51000612263 /* 平衡二叉查找树红黑树 */,
+				BFAC5C8D224CBB5E00612263 /* 二叉查找树 */,
 				BFBE82702244E8EA0094C9CB /* 排序 */,
 				BFEFA8E8223B7EEB003CC8E6 /* 栈 */,
 				BFEFA8E9223B7EFB003CC8E6 /* 队列 */,
@@ -118,13 +122,22 @@
 			path = "其他";
 			sourceTree = "<group>";
 		};
-		BFAC5C8D224CBB5E00612263 /* 二叉树 */ = {
+		BFAC5C8D224CBB5E00612263 /* 二叉查找树 */ = {
 			isa = PBXGroup;
 			children = (
 				BFAC5C8E224CBBAE00612263 /* BinarySearchTree.h */,
 				BFAC5C8F224CBBAE00612263 /* BinarySearchTree.c */,
 			);
-			path = "二叉树";
+			path = "二叉查找树";
+			sourceTree = "<group>";
+		};
+		BFAC5C91224CE51000612263 /* 平衡二叉查找树红黑树 */ = {
+			isa = PBXGroup;
+			children = (
+				BFAC5C92224CE63900612263 /* RedBlackTree.h */,
+				BFAC5C93224CE63900612263 /* RedBlackTree.c */,
+			);
+			path = "平衡二叉查找树红黑树";
 			sourceTree = "<group>";
 		};
 		BFBE82702244E8EA0094C9CB /* 排序 */ = {
@@ -223,6 +236,7 @@
 				BF84EB6320F851340086E4CD /* textCopy.c in Sources */,
 				BF84EB5820F736B60086E4CD /* main.m in Sources */,
 				BF84EB6B20F855C00086E4CD /* textCount.c in Sources */,
+				BFAC5C94224CE63900612263 /* RedBlackTree.c in Sources */,
 				BF3D87112248D4E800575581 /* quickSort.c in Sources */,
 				BFAC5C90224CBBAE00612263 /* BinarySearchTree.c in Sources */,
 				BF3D87082248AC6900575581 /* SelectionSort.c in Sources */,
